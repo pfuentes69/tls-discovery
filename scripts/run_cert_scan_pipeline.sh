@@ -97,13 +97,12 @@ if ! python3 ./python/dump_certs_db_to_json.py; then
 fi
 echo "[+] Dump complete: certs_dump.json"
 
-echo "[✅] Full scan pipeline completed successfully."
-
 # ======== Step 5: Upload DB to server ========
-echo "[*] Step 5: Upload DB to server..."
-if ! ./scripts/upload_db_gzip.sh; then
-  echo "[-] DB upload failed."
-  exit 1
-fi
-echo "[+] DB upload completed."
+# echo "[*] Step 5: Upload DB to server..."
+# if ! ./scripts/upload_db_gzip.sh; then
+#   echo "[-] DB upload failed."
+#   exit 1
+# fi
+# echo "[+] DB upload completed."
 
+echo "[✅] Full scan pipeline completed successfully."
