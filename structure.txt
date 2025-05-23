@@ -1,0 +1,11 @@
+certscan-pipeline/
+├── scripts/
+│   ├── run_cert_scan_pipeline.sh         # Master runner script
+│   ├── zgrab2_scan.sh                    # Docker wrapper
+│   └── generate_targets.py               # Uses zmap
+├── python/
+│   ├── extract_certs_db.py
+│   └── dump_certs_to_json.py
+├── requirements.txt                      # Python dependencies (if any)
+├── README.md
+└── setup.sh                              # Installation script

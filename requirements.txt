@@ -1,0 +1,4 @@
+# requirements.txt
+# leave empty or include non-standard libs if needed
+
+Flask

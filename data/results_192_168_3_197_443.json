@@ -1,0 +1,1 @@
+{"ip":"192.168.3.197","data":{"tls":{"status":"unknown-error","protocol":"tls","timestamp":"2025-05-23T08:26:29Z","error":"failed to dial target 192.168.3.197: could not perform tls handshake for target 192.168.3.197: EOF"}}}
